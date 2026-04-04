@@ -8,7 +8,7 @@
         "categories_info": "Categories loaded when using the default 'all' option. You can add, rename, or modify extensions here."
     },
     "settings": {
-        "language": "it",
+        "language": "en",
         "default_criteria": [
             "type"
         ],

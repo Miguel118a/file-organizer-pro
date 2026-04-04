@@ -1,5 +1,6 @@
 import json
 import os
+import sys
 
 class Configurator:
     """
@@ -14,7 +15,10 @@ class Configurator:
         Args:
             translator: Translator object for i18n.
         """
-        root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        if getattr(sys, 'frozen', False):
+            root_path = os.path.dirname(sys.executable)
+        else:
+            root_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         self.file_path = os.path.join(root_path, "config.json")
         self.translator = translator
         self.data = self._load()
