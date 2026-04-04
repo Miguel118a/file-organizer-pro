@@ -141,7 +141,6 @@ def confirm_yes_no(message, translator: Translator):
     valid_no = translator.get("valid_no") 
     accepted_yes = {valid_yes.lower(), "yes"}
     accepted_no = {valid_no.lower(), "no"}
-    print(f"DEBUG: valid_yes={repr(valid_yes)}, valid_no={repr(valid_no)}, lang={translator.lang}")
     while True:
         r = input(message).strip().lower()
         if r in accepted_yes:
