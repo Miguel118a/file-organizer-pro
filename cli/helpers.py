@@ -139,11 +139,13 @@ def confirm_yes_no(message, translator: Translator):
     """
     valid_yes = translator.get("valid_yes") 
     valid_no = translator.get("valid_no") 
-    
+    accepted_yes = {valid_yes.lower(), "yes"}
+    accepted_no = {valid_no.lower(), "no"}
+    print(f"DEBUG: valid_yes={repr(valid_yes)}, valid_no={repr(valid_no)}, lang={translator.lang}")
     while True:
         r = input(message).strip().lower()
-        if r in valid_yes:
+        if r in accepted_yes:
             return "yes"
-        if r in valid_no:
+        if r in accepted_no:
             return "no"
         print(translator.get("Only 'yes' or 'no' responses are allowed"))

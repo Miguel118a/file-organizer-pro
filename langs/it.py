@@ -52,7 +52,7 @@ MESSAGES = {
     "Folder not allowed": "Cartella non consentita",
     "You cannot use this folder as a destination.\n\nMotive: {motive}\n\nPlease select a folder inside your Documents or Desktop.": "Non puoi usare questa cartella come destinazione.\n\nMotivo: {motive}\n\nSeleziona una cartella in Documenti o Desktop.",
     "Please enter a number from 1 to {limit}": "Inserisci un numero da 1 a {limit}",
-    "Only 'yes' or 'no' responses are allowed": "Sono consentite solo risposte 'yes' o 'no'",
+    "Only 'yes' or 'no' responses are allowed": "Sono consentite solo risposte 'si' o 'no'",
     
     # --- Menu titles and options ---
     "FILE ORGANIZER PRO v3.0": "FILE ORGANIZER PRO v3.0",
@@ -81,8 +81,8 @@ MESSAGES = {
     # --- Status and processes ---
     "Error: The selected path is no longer available.": "Errore: Il percorso selezionato non è più disponibile.",
     "Press Enter to continue...": "Premi Invio per continuare...",
-    "\nDo you want to include subfolders? (yes/no): ": "\nVuoi includere le sottocartelle? (yes/no): ",
-    "\nDo you want to delete folders that remain empty after organization? (yes/no): ": "\nVuoi eliminare le cartelle che rimangono vuote dopo l'organizzazione? (yes/no): ",
+    "\nDo you want to include subfolders? (yes/no): ": "\nVuoi includere le sottocartelle? (si/no): ",
+    "\nDo you want to delete folders that remain empty after organization? (yes/no): ": "\nVuoi eliminare le cartelle che rimangono vuote dopo l'organizzazione? (si/no): ",
     "Analyzing files and folders...": "Analisi di file e cartelle...",
     "Organizing, please do not close the program...": "Organizzazione in corso, non chiudere il programma...",
     "Generating preview...": "Generazione anteprima...",
@@ -104,18 +104,18 @@ MESSAGES = {
     "RECOVERY SECTION": "SEZIONE RECUPERO",
     "Last folder organized": "Ultima cartella organizzata",
     "Files to return": "File da ripristinare",
-    "\nAre you sure you want to revert these changes? (yes/no): ": "\nSei sicuro di voler annullare queste modifiche? (yes/no): ",
+    "\nAre you sure you want to revert these changes? (yes/no): ": "\nSei sicuro di voler annullare queste modifiche? (si/no): ",
     "Process completed!": "Processo completato!",
     "Recovered": "Recuperati",
     "Failed/Not found": "Falliti/Non trovati",
-    "\nDo you want to delete the folders created by the organizer? (yes/no): ": "\nVuoi eliminare le cartelle create dall'organizzatore? (yes/no): ",
+    "\nDo you want to delete the folders created by the organizer? (yes/no): ": "\nVuoi eliminare le cartelle create dall'organizzatore? (si/no): ",
     "Folder deleted": "Cartella eliminata",
     "Nothing found to return. Files are no longer there.": "Nessun file da ripristinare. Non esistono più.",
-    "Do you want to delete this invalid record from history? (yes/no): ": "Vuoi eliminare questo record non valido dalla cronologia? (yes/no): ",
+    "Do you want to delete this invalid record from history? (yes/no): ": "Vuoi eliminare questo record non valido dalla cronologia? (si/no): ",
     "Operation canceled.": "Operazione annullata.",
     "No tracking data to undo or history is empty.": "Nessun dato da annullare o cronologia vuota.",
     "An error occurred": "Si è verificato un errore",
-    "Are you sure you want to exit the program? (yes/no): ": "Sei sicuro di voler uscire dal programma? (yes/no): ",
+    "Are you sure you want to exit the program? (yes/no): ": "Sei sicuro di voler uscire dal programma? (si/no): ",
 
     # --- app.py: Undo / Reversion ---
     "[!] Reverting last organization in: {folder}": "[!] Ripristino ultima organizzazione in: {folder}",
@@ -142,5 +142,5 @@ MESSAGES = {
     "Select language (1-2): ": "Seleziona lingua (1-2): ",
     "Select an option (1-{max_option}): ": "Seleziona un'opzione (1-{max_option}): ",
     "valid_yes": "si",
-    "valid_no": "non",
+    "valid_no": "no",
 }

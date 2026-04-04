@@ -137,7 +137,7 @@ MESSAGES = {
     
     "yes" : "si",
     "no" : "no",
-    "valid_yes": "yes",
+    "valid_yes": "si",
     "valid_no": "no",
     "Select an option (1-6): " : "Seleccione una opción (1-6): ",
     "Select an option (1-{max_option}): " : "Seleccione una opción (1-{max_option}): ",
