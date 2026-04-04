@@ -1,0 +1,118 @@
+{
+    "_comment": "JSON does not support real comments, this field is for information only",
+    "_settings_info": {
+        "default_criteria": "Organization order if the user does not choose: type, date, or size",
+        "clean_empty": "If 'yes', empty folders will be deleted after organizing",
+        "max_history": "How many executions are remembered for undo operations",
+        "ignore": "Files that are never moved even if they are in the folder",
+        "categories_info": "Categories loaded when using the default 'all' option. You can add, rename, or modify extensions here."
+    },
+    "settings": {
+        "language": "it",
+        "default_criteria": [
+            "type"
+        ],
+        "clean_empty": "no",
+        "max_history": 10,
+        "ignore": [
+            "log.txt",
+            "config.json",
+            "desktop.ini",
+            ".DS_Store",
+            "history.json",
+            "app.py"
+        ]
+    },
+    "categories": {
+        "Images": [
+            ".jpg",
+            ".jpeg",
+            ".png",
+            ".gif",
+            ".webp",
+            ".avif",
+            ".bmp",
+            ".svg",
+            ".ico",
+            ".tiff",
+            ".raw",
+            ".heic"
+        ],
+        "Media": [
+            ".mp4",
+            ".mkv",
+            ".avi",
+            ".mov",
+            ".wmv",
+            ".flv",
+            ".webm",
+            ".m4v",
+            ".mp3",
+            ".wav",
+            ".flac",
+            ".aac",
+            ".ogg",
+            ".m4a",
+            ".wma",
+            ".opus"
+        ],
+        "Documents": [
+            ".psc",
+            ".txt",
+            ".pdf",
+            ".docx",
+            ".doc",
+            ".xlsx",
+            ".xls",
+            ".pptx",
+            ".ppt",
+            ".csv",
+            ".odt",
+            ".ods",
+            ".odp",
+            ".rtf",
+            ".epub"
+        ],
+        "Codes": [
+            ".py",
+            ".js",
+            ".html",
+            ".css",
+            ".ts",
+            ".json",
+            ".xml",
+            ".php",
+            ".java",
+            ".cpp",
+            ".c",
+            ".cs",
+            ".rb",
+            ".go",
+            ".rs",
+            ".kt",
+            ".swift"
+        ],
+        "Compressed": [
+            ".zip",
+            ".rar",
+            ".7z",
+            ".tar",
+            ".gz",
+            ".bz2",
+            ".xz"
+        ],
+        "Apps": [
+            ".exe",
+            ".msi",
+            ".msix",
+            ".apk",
+            ".dmg",
+            ".deb",
+            ".rpm",
+            ".bat",
+            ".sh",
+            ".jar",
+            ".appimage"
+        ]
+    }
+}
