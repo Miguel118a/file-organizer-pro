@@ -30,6 +30,7 @@ class Configurator:
         """
         default_config = {
                 "settings": {
+                    "language": "en",
                     "max_history": 10,
                     "ignore": [".DS_Store", "desktop.ini"]
                 },

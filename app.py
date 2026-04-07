@@ -31,7 +31,7 @@ def run_cli(args):
     It is activated when the user passes arguments such as -r, --undo, etc.
     
     Args:
-        args: Argparse object with the parsed arguments.
+        args: Argparse object with the parsed arguments.    
     """
     translator = Translator(lang="en")  # default english
     config = Configurator(translator)
@@ -88,7 +88,7 @@ def run_cli(args):
             "max_history": max_history,
             "translator": translator
         }
-        # Usa modo recursivo si se pasó --recursivo, sino el organizador normal
+        
         org = Recursive_Organizer(**params) if args.recursive else Organizer(**params)
         
         if args.simulate:
